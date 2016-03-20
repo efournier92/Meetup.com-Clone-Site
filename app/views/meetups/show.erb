@@ -1,0 +1,27 @@
+<h1><%="#{@name} Details"%></h1>
+
+<h4>
+<ul>
+  <li> <%= "Title: #{@name}" %> </li>
+  <li> <%= "Description: #{@description}" %></li>
+  <li> <%= "Location: #{@location}" %></li>
+  <li> <%= "Creator: #{@creator}" %></li>
+</ul>
+</h4>
+
+<form action="/meetups/<%= @name %>" method="post">
+  <div class = "form">
+    <input type="submit" name="" id="" value="Join this meetup!" />
+  </div>
+</form>
+
+<br>
+<h4> Users Attending: </h4>
+
+<ul>
+  <% @attendees.each do |attendee| %>
+    <% user = User.find_by(id: attendee.user_id) %>
+    <li> <%= user.username %>
+    <img src="<%= user.avatar_url %>" style="width:20px;height:20px;" > </li>
+  <% end %>
+</ul>
