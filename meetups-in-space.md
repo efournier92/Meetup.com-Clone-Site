@@ -10,7 +10,7 @@ This project allowed me to practice:
 * Using ActiveRecord validations at both the database and model level
 
 ###ER Diagram
-![]()
+![Meetup-Clone-Site-ERM](http://gdurl.com/EQ29)
 
 ###Technologies Utilized
 * OAuth
