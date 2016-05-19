@@ -1,4 +1,3 @@
-# Configure the database used when in the development environment
 development:
   adapter: postgresql
   encoding: unicode
@@ -7,7 +6,6 @@ development:
   username:
   password:
 
-# Configure the database used when in the test environment
 test:
   adapter: postgresql
   encoding: unicode
