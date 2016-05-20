@@ -1,7 +1,7 @@
 
 body {
-  background-image: url('/images/background.jpg');
-  color: #FFFFFF;
+  background-color: #f9f7ed;
+  color: black;
 }
 
 a,
@@ -16,7 +16,7 @@ a:visited {
 }
 
 .top-bar {
-  background-color: #71da71;
+  background-color:#e84c3d;
 }
 
 .top-bar-section {
