@@ -4,9 +4,9 @@ FactoryGirl.define do
   factory :user do
     provider "github"
     sequence(:uid) { |n| n }
-    sequence(:username) { |n| "jarlax#{n}" }
-    sequence(:email) { |n| "jarlax#{n}@launchacademy.com" }
-    avatar_url "https://avatars2.githubusercontent.com/u/174825?v=3&s=400"
+    sequence(:username) { |n| "ringo#{n}" }
+    sequence(:email) { |n| "ringo#{n}@beatles.com" }
+    avatar_url "https://avatars2.githubusercontent.com/u/?v=3&s=400"
   end
 end
 

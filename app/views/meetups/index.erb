@@ -1,12 +1,15 @@
 <h1>Meetups</h1>
-
+<div class="index_body">
 <ul>
   <% @meetups.each do |meetup|%>
     <li>
       <a href="/meetups/<%= meetup.name %>">
-      <%= meetup.name %>
+				<%= "#{meetup.name} #{meetup.location}" %>
     </li>
   <% end %>
 </ul>
 
-<a href="/meetups/create"> Create New Meetup
+<div class="link">
+	<a href="/meetups/create"> Create New Meetup
+</div>
+</div>
