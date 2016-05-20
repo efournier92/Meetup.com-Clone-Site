@@ -65,3 +65,11 @@ Meetup.create!(
 	description: 'A whole week of internet presentations, expositions, and networking opportunities.',
 	location:    'New York' 
 )
+
+50.times do
+	Attendance.create!(
+	user_id: rand(4),
+	meetup_id: rand(6),
+	creator:  rand(1)
+	)
+end

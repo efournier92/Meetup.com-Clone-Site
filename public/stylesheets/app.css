@@ -15,7 +15,7 @@ a:visited {
 }
 
 .link {
-	text-size:  18px;
+	text-size:  109px;
 	color: #356aa0;
 }
 
@@ -24,12 +24,13 @@ a:visited {
 }
 
 .top-bar {
-  background-color:#e84c3d;
+  background-color: #e84c3d;
 }
 
 .top-bar-section {
   display: inline-block;
   float: right;
+	margin: 25px;
 }
 
 .top-bar-section li {
@@ -39,7 +40,7 @@ a:visited {
 
 .logo {
   display: inline-block;
-  margin: 1em 0;
+  margin: 25px;
 }
 
 .flash {
