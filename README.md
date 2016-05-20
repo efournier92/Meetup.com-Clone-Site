@@ -66,5 +66,5 @@ So that I can partake in this meetup
 * If I am not signed in and I click the button, I should see a message which says that I must sign in.
 
 ###ScreenShots
-![Meetup-Clone-Site-Index](https://drive.google.com/file/d/0B9kbD2iDbS5UUXNNMWZDZ0dFMmc/view?usp=sharing)
-![Meetup-Clone-Site-Create](https://drive.google.com/file/d/0B9kbD2iDbS5UdVp5WXJZY0hJZWM/view?usp=sharing)
+![Meetup-Clone-Site-Index](http://gdurl.com/v0-F)
+![Meetup-Clone-Site-Create](http://gdurl.com/ML0f)
